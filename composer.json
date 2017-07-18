@@ -1,0 +1,22 @@
+{
+  "name": "evsyutkin/yii2-sluggable-behavior",
+  "description": "Поведение для транслитерации кирилицы в латиницу.",
+  "type": "yii2-extension",
+  "keywords": ["yii2","extension","behavior","slug","translit"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andrey Evsyutkin",
+      "email": "andrey@evsyutkin.ru"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "*",
+    "jbroadway/urlify": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "evsyutkin\\behaviors\\": ""
+    }
+  }
+}
